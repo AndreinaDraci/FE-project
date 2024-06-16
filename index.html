@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+  <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Projekt</title>
+       <link href="style.css" rel="stylesheet">
+       <script src="script.js" defer></script>
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+       <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    </head>
+    <body>
+    <header>
+        <div class="top-bar">
+            <div class="tabs">
+                <a href="#" class="tab">Wholesale - Pros Only</a>
+                <a href="#" class="retai">Retail</a>
+            </div>
+            <div class="search-container">
+                <input class="input" type="text" placeholder="Search by name, category...">
+                <button>🔍</button>
+            </div>
+            <div class="icons">
+                <a class="ikonat" href="#">Community</a>
+               <a class="ikonat" href="#">Account</a><select></select>
+                <a class="ikonat" href="#">Cart</a><select></select>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="logo">
+                <img class="figur" src="https://via.placeholder.com/30x30" alt="Painful Pleasures">
+                <div class="textt"><p >PainfulPleasures</p></div>
+            </div>
+            <ul>
+                <li><a href="#">Body Jewelry</a></li><select class="select"></select>
+                <li><a href="#">Piercing</a></li><select class="select"></select>
+                <li><a href="#">Tattoo</a></li><select class="select"></select>
+                <li><a href="#">Medical</a></li><select class="select"></select>
+                <li><a href="#">Studio</a></li><select class="select"></select>
+                <li><a href="#">Permanent Makeup</a></li><select class="select"></select>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+       <img class="first" src="https://via.placeholder.com/900x400" alt="foto1">
+       <button class="button itm">Shop now</button>
+       <img class="sec" src="https://via.placeholder.com/450x200" alt="foto2">
+        <img src="https://via.placeholder.com/450x200" alt="foto3 ">
+     </div>
+
+     <div class="second-container">
+      <figure>
+         <figcaption><h3 class="title">TATTOO <Br> SUPPLIES</h3></figcaption>
+      <img class="item" src="https://via.placeholder.com/100X200" alt="foto1">
+      <figcaption><button class="basic">Shop now</button></figcaption>
+      </figure>
+      <figure>
+         <figcaption><h3 class="title">BODY <Br> JEWELRY</h3></figcaption>
+      <img class="item" src="https://via.placeholder.com/100X200" alt="foto2">
+      <figcaption><button class="basic">Shop now</button></figcaption>
+      </figure>
+      <figure>
+         <figcaption><h3 class="title">PIERCING <Br> SUPPLIES</h3></figcaption>
+      <img class="item" src="https://via.placeholder.com/100X200" alt="foto3">
+      <figcaption><button class="basic">Shop now</button></figcaption>
+      </figure>
+      <figure>
+         <figcaption><h3 class="title">MEDICAL <Br> SUPPLIES</h3></figcaption>
+      <img class="item" src="https://via.placeholder.com/100X200" alt="foto4 pershkrimi">
+      <figcaption><button class="basic">Shop now</button></figcaption>
+      </figure>
+      <figure>
+         <figcaption><h3 class="title">PERMANENT <Br> MAKEUP</h3></figcaption>
+      <img class="item" src="https://via.placeholder.com/100X200" alt="foto55">
+      <figcaption><button class="basic">Shop now</button></figcaption>
+      </figure>
+     </div>
+
+<section>
+        <style>
+            .glide {
+                width: 80%;
+                margin: 0 auto;
+                position: relative;
+            }
+            .glide__slide {
+                text-align: center;
+                padding: 10px;
+            }
+            .glide__slide img {
+                max-width: 100%;
+                height: auto;
+            }
+            .glide__slide p {
+                margin: 10px 0 0;
+            }
+            .glide__arrow {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                background: rgba(128, 128, 128, 0.5); /* Transparent gray background */
+                border: none; /* No border */
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                color: #fff; /* White arrows */
+                font-size: 20px;
+            }
+            .glide__arrow--prev {
+                left: -50px;
+            }
+            .glide__arrow--next {
+                right: -50px;
+            }
+            .glide__arrow:before {
+                content: '';
+            }
+        </style>
+        <div class="glide ">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <img src="https://via.placeholder.com/150X180" alt="tatoo machine">
+                        <p><span>$449.99</span><br>Rook Quill Rotary Tattoo Machine<br> — Copper</p>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="https://via.placeholder.com/150X180"  alt="tattoo machine blue">
+                        <p><span>$449.99</span><br>Rook Quill Rotary Tattoo Machine<br> — Blue</p>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="https://via.placeholder.com/150X180"  alt="tattoo machine">
+                        <p><span>$1,199.99</span><br>Pre-Order —Inkjecta Flite X1<br> Wireless Tattoo Machine...</p>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="https://via.placeholder.com/150X180"  alt="tattoo machine">
+                        <p><span>$1,199.99</span><br>Pre-Order —Inkjecta Flite X1<br> Wireless Tattoo Machine...</p>
+                    </li>
+                    <li class="glide__slide">
+                        <img src="https://via.placeholder.com/150X180"  alt="tattoo machinee">
+                        <p><span>$1,199.99</span><br>Pre-Order —Inkjecta Flite X1<br> Wireless Tattoo Machine...</p> 
+                    </li>
+                </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--prev" data-glide-dir="<">‹</button>
+                <button class="glide__arrow glide__arrow--next" data-glide-dir=">">›</button>
+            </div>
+        </div>
+</section>
+<footer> 
+       <figure>
+            <img class="fig" src="https://via.placeholder.com/50X50">
+           <figcaption><p class="text">The leading provider of quality jewelry, tattoo and piercing<br> supplies.</p></figcaption>
+        </figure>
+        <hr>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Helpful Links</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Accessibility Statement</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Shopping</h3>
+                <ul>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Track Order</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Get In Touch</h3>
+                <p>410-712-0145</p>
+                <p>support@painfulpleasures.com</p>
+                <p>9:00am - 5:00pm EST Mon - Fri</p>
+            </div>
+            <div class="footer-section">
+                <h3>Sign Up to Our Newsletter</h3>
+                <form>
+                 <div class="input-container">
+                <input type="email" placeholder="Newsletter Sign-up">
+                <button>SUBMIT</button></div>
+            </div>
+            </form>
+        </div>
+        </div>
+    </footer>
+ </body>
+</html>
